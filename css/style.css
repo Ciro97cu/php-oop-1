@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: silver;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+.col-sm-4 {
+  padding: 10px;
+  transition: transform 0.25s ease-in-out;
+}
+.col-sm-4 > * {
+  padding-bottom: 15px;
+}
+.col-sm-4 h2 {
+  font-weight: bolder;
+}
+.col-sm-4 .wrapper_img {
+  height: 500px;
+}
+.col-sm-4 .wrapper_img img {
+  border-radius: 10px;
+}
+.col-sm-4 p {
+  font-weight: 500;
+}
+
+.col-sm-4:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
